@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% if num % 2 == 0 %}
+        {{num}}-Четное
+        {%else%}
+        {{num}}-Нечетное
+        {%endif%}
+{% endblock %}
